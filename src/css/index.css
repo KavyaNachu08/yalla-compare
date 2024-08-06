@@ -1,0 +1,1345 @@
+:root {
+    --white: #fff;
+    --blue: #2166B1;
+    --black: #222;
+    --grey: #f2f2f2;
+    --dark-pink: #C33175;
+    --pink: #E84C9B;
+    --dark-black: #171717;
+    --light-blue: #A7D1FF;
+    --light-black: #000;
+    --dark-gray: #c9c9c9;
+    --light-gray: #d6d6d6;
+    --light-pink: #FFDAED;
+    --dark-blue: #165090;
+    --navy-blue: #327DCE;
+    --sea-blue: #A7D1FF;
+    --indigo: #2466b1;
+    --ash: #A6A6A6;
+    --bg-color: #F7F7F7;
+    --b-shadow1: #00000029;
+    --b-shadow2: #5F5F5F29;
+    --red: #f7474f;
+}
+
+body {
+    font-family: 'Poppins', 'Avant Garde', 'Filson', 'Linowrite';
+    margin: auto;
+}
+
+.container {
+    overflow-y: hidden;
+    position: relative;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.t-cap,
+.first-letter-capital::first-letter {
+    text-transform: capitalize;
+}
+
+.t-up {
+    text-transform: uppercase;
+}
+
+.d-none-lg {
+    display: none;
+}
+
+.marker-blue::before {
+    background-color: var(--blue);
+    content:'';
+    height:21px;
+    position:absolute;
+    width:4px;
+}
+
+.marker-pink::before {
+    background-color: var(--dark-pink);
+    content:'';
+    height:21px;
+    position:absolute;
+    width:4px;
+}
+
+h1 {
+    color: var(--grey);
+    font-size: 13.75rem;
+    font-weight: bold;
+    line-height: 15.7rem;
+    width: 89%;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 5rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 6.37rem;
+}
+
+button {
+    background-color: var(--white);
+    border: 2px solid var(--blue);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.87rem;
+    font-weight: bold;
+    line-height: 1.3rem;
+    padding: 15px 30px;
+}
+
+/* HEADER */
+
+header {
+    padding: 25px 0;
+}
+
+.header-container {
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.yalla-logo {
+    width: 209px;
+}
+
+.yalla-navlist span {
+    border: 1px solid var(--white);
+    color: var(--pink);
+    margin-right: 10px;
+}
+
+.yalla-navlist a,
+.yalla-profile span {
+    color: var(--black);
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.4rem;
+    padding: 15px;
+}
+
+.yalla-profile span.yalla-message {
+    background-color: var(--blue);
+    color: var(--white);
+    line-height: 1.3rem;
+}
+
+.yalla-profile span.grid-icon {
+    background-color: var(--grey);
+    margin-left: 10px;
+}
+
+
+/* SECTION 1 */
+
+.wrapper {
+    margin-bottom: 180px;
+    position: relative;
+}
+
+.yalla-home {
+    margin-left: auto;
+    overflow: hidden;
+    width: 97%;
+}
+
+.left-margin {
+    background-color: var(--grey);
+    height: 100%;
+    left: 128px;
+    position: absolute;
+    top: 145px;
+    width: 4px;
+    z-index: -2;
+}
+
+.right-margin {
+    background-color: var(--grey);
+    height: 100%;
+    position: absolute;
+    right: 128px;
+    top: 145px;
+    width: 4px;
+    z-index: -2;
+}
+
+.m1 {
+    position:absolute;
+    top:320px;
+    left:128px;
+}
+
+.m2 {
+    position:absolute;
+    bottom:342px;
+    right:132px;
+}
+
+.yalla-home-content {
+    color: var(--dark-black);
+    margin-left: auto;
+    position: relative;
+    width: 92%;
+}
+
+.car-details {
+    width: 50%;
+}
+
+h2 span {
+    display: inline-block;
+}
+
+.ford {
+    font-size: 4.7rem;
+    font-weight: bold;
+    line-height: 7rem;
+}
+
+.car-details p {
+    font-size: 1.12rem;
+    font-weight: 600;
+    line-height: 1.7rem;
+}
+
+.car-details p span {
+    color: var(--pink);
+}
+
+.yalla-buttons {
+    flex-wrap: wrap;
+    margin: 37px 0;
+}
+
+.yalla-quotes {
+    background-color: var(--blue);
+    color: var(--white);
+    margin-right: 20px;  
+}
+
+.yalla-learn {
+    margin-right: 20px;
+}
+
+.yalla-cancel {
+    border:none;
+    border-bottom: 1px solid var(--dark-gray);
+    margin: 15px 30px;
+    padding: 0;
+}
+
+.yalla-time-percent {
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.yalla-percent {
+    color: var(--pink);
+    font-size: 3rem;
+    font-weight: bold;
+    flex-direction: column;
+    line-height: 4.5rem;
+    margin-right: 97px;
+}
+
+.yalla-percent span {
+    font-size: 1.75rem;
+    line-height: 2.6rem;
+}
+
+.yalla-time {
+    flex-direction: row;
+}
+
+.yalla-days,
+.yalla-time span {
+    flex-direction: column;
+    font-size: 3.9rem;
+    font-weight: bold;
+    line-height: 5.8rem;
+    padding: 0 5px;
+}
+
+.yalla-days span {
+    color: var(--light-gray);
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+.yalla-social-network {
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+    padding: 60px 0;
+}
+
+.yalla-social-network ul {
+    flex-direction: row;
+    margin-left: 55px;
+}
+
+.yalla-social-network li {
+    color: var(--black);
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding:10px;
+    border-radius: 50%;
+}
+
+.social-media li {
+    border:1px solid var(--ash);
+    border-radius: 50%;
+    margin-right: 9px;
+}
+
+.social-media .pinterest {
+    background-color: var(--red);
+    color:var(--white);
+    padding: 8px 10px;
+}
+
+.yalla-social-network span {
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.car-image {
+    bottom: 25px;
+    overflow: hidden;
+    position: absolute;
+    right: -430px;
+    width: 85%;
+}
+
+.car-image img {
+    width: 100%;
+}
+
+.yalla-companies-navbar {
+    align-items: center;
+    background-color: var(--blue);
+    color: var(--white);
+    justify-content: space-between;
+}
+
+.logo-icon {
+    width: 148px;
+    padding: 40px;
+}
+
+.logo-icon img {
+    width: 100%;
+}
+
+.logo-comparison,
+.companies ul {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.finance-comparison {
+    flex-direction: column;
+    margin-left: 40px;
+    padding: 50px 0;
+}
+
+.award-win {
+    font-size: 1.5rem;
+}
+
+.finance-site {
+    font-size: 2.1rem;
+    font-weight: bold;
+}
+
+.top-notch {
+    color: var(--light-blue);
+    font-size: 1rem;
+    letter-spacing: 0.65rem;
+}
+
+.companies {
+    margin-right: 146px;
+}
+
+.companies li:not(:first-child) {
+    margin-right: 47px;
+    opacity: 45%;
+    width: 200px;
+}
+
+.companies li:first-child {
+    border-left: 1px solid var(--light-blue);
+    margin-right: 47px;
+    opacity: 45%;
+    padding-left: 47px;
+    width: 114px;
+}
+
+.companies li img {
+    width: 100%;
+}
+
+
+/* SECTION 2 */
+
+.compare-works {
+    position: relative;
+}
+
+.m3 {
+    position: absolute;
+    top:84px;
+    left:128px;
+}
+
+.m4 {
+    bottom:-121px;
+    position: absolute;
+    right:131px;
+}
+
+.yalla-works {
+    margin: auto;
+    text-align: center;
+    width: 38%;
+}
+
+.yalla-works h3 {
+    color: var(--dark-black);
+}
+
+.yalla-works p {
+    color: var(--dark-black);
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
+.works-wrapper {
+    flex-wrap: wrap;
+    margin: 80px auto;
+    width: 77.4%;
+}
+
+.yalla-filters {
+    width: 33%;
+    margin-top: 10%;
+}
+
+.label span {
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 15px 25px;
+}
+
+.accordian {
+    color: var(--dark-black);
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    margin: 25px;
+    margin-bottom: 55px;
+}
+
+.label {
+    opacity: 0.5;
+}
+
+.accordian-content {
+    color: var(--light-black);
+    border-left: 2px solid var(--blue);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 33px 0;
+    padding: 0 20px;
+}
+
+.filters-image {
+    width: 65%;
+}
+
+.filters-image img {
+    background: linear-gradient(180deg, var(--white), var(--grey));
+    box-shadow: 0px 30px 90px var(--b-shadow1);
+    border-radius: 48px;
+    padding: 30px;
+    width: 100%;
+    animation: mymove 3s ease;
+}
+
+.accordian .active,
+.filters-image .active {
+    align-items: center;
+    display: flex;
+    opacity: 1;
+}
+
+
+/* SECTION 3 */
+
+.six-reasons {
+    overflow: hidden;
+    position: relative;
+}
+
+.yalla-reasons {
+    background: linear-gradient(269deg, var(--pink), var(--dark-pink));
+    color: var(--white);
+    position: relative;
+    width: 66%;
+}
+
+.arrow-image {
+    background: url(../assets/images/arrow.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 275px;
+    background-position: -290px 85px;
+    height: 90%;
+    bottom: 0;
+    background-size: cover;
+}
+
+.yalla-six-reasons {
+    margin-left: 250px;
+}
+
+.yalla-reason-header {
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+.yalla-reason-header h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.yalla-reason-header .why-choose {
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.why-choose span {
+    color: var(--light-pink);
+    font-size: 2.5rem;
+    margin-left: 29px;
+}
+
+.reasons-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(410px, 1fr));
+    margin-right: 130px;
+    margin-bottom: 60px;
+}
+
+.each-reason {
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    width: 413px;
+}
+
+.reason-icons {
+    font-size: 53px;
+}
+
+.reason-content {
+    margin-left: 44px;
+}
+
+.reason-content h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-bottom: 15px;
+}
+
+.reason-content p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.7rem;
+}
+
+.yalla-team {
+    height:692px;
+    padding: 58px 0;
+    position: absolute;
+    right: -325px;
+    z-index: -1;
+}
+
+.yalla-team img {
+    height: 100%;
+}
+
+/* SECTION 4 */
+
+.rating {
+    margin: auto;
+    margin-bottom: 197px;
+    width: 76%;
+}
+
+.m6 {
+    position: absolute;
+    top:137px;
+    right:-98px;
+}
+
+.m5 {
+    bottom:0;
+    position: absolute;
+    left:-103px;
+}
+
+.rating-header {
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: center;
+    width: 658px;
+}
+
+.rating-header span {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.blocks {
+    column-gap: 15.5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    place-items: center;
+    row-gap: 97px;
+}
+
+.rating-block {
+    text-align: center;
+    width: 330px;
+}
+
+.rating-block i {
+    display: inline-block;
+    font-size: 35px;
+    margin-bottom: 40px;
+    padding: 22px;
+    box-shadow: 0px 20px 30px var(--b-shadow2);
+}
+
+.rating-block h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+}
+
+.rating-block p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    line-height: 1.4rem;
+}
+
+/* SECTION 5 */
+
+.deals {
+    background: linear-gradient(270deg, var(--blue), var(--dark-blue));
+    color: var(--white);
+}
+
+.horizontal-bar {
+    background-color: var(--navy-blue);
+    padding: 21px;
+    position: absolute;
+    top: -20px;
+    width: 65%;
+}
+
+.deals-features {
+    width: 56.5%;
+}
+
+.yalla-best-deals {
+    margin-top: 91px;
+    margin-left: 225px;
+
+}
+
+.deals-header {
+    margin-bottom: 62px;
+}
+
+.deals-header p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.7rem;
+    opacity: 0.9;
+}
+
+.deals-content li {
+    align-items: center;
+    margin-bottom: 39px;
+}
+
+.icon-tick {
+    padding-right: 45px;
+    width: 23px;
+}
+
+.deals-content div {
+    margin: 0;
+}
+
+.deals-content h4 {
+    color: var(--sea-blue);
+    font-size: 1.9rem;
+    font-weight: 600;
+    line-height: 2.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.deals-content span {
+    display: inline-block;
+    font-size: 1.3rem;
+    line-height: 0.9rem;
+    opacity: 0.9;
+}
+
+.deals-yalla-compare h4 {
+    color: var(--indigo);
+    font-size: 6.1rem;
+    font-weight: bold;
+    line-height: 7rem;
+    margin-left: 37px;
+    margin-bottom: 14px;
+}
+
+.deals-image {
+    position: absolute;
+    top: -50px;
+    right: 0px;
+    width: 835px;
+}
+
+.deals-image img {
+    width: 100%;
+}
+
+/* SECTION 6 */
+
+.insurance {
+    margin: auto;
+    margin-bottom: 226px;
+    width: 77%;
+}
+
+.m7 {
+    position: absolute;
+    top:-29px;
+    right:-89px;
+}
+
+.m8 {
+    top:173px;
+    position: absolute;
+    left:-93px;
+}
+
+.m9 {
+    position: absolute;
+    bottom:-97px;
+    right:-89px;
+}
+
+.insurance-header {
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 6.3rem;
+    padding-bottom: 85px;
+    text-align: center;
+}
+
+.insurance-section {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lessthan-arrow,
+.greaterthan-arrow {
+    background-color: var(--blue);
+    padding: 25px 28px;
+}
+
+.banks-grid {
+    display:flex;
+    flex-direction: column;
+}
+
+.slider img {
+    display:none;
+    width:100%;
+}
+
+.slider.active img {
+    display: block;
+    animation: mymove 3s ease;
+}
+
+/* SECTION 7 */
+
+.guide {
+    background-color: var(--bg-color);
+}
+
+.guide-header h3 {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.guide-steps {
+    column-gap: 61px;
+    overflow: auto;
+    padding-bottom: 66px;
+}
+
+.guide-steps::-webkit-scrollbar {
+    background-color: var(--light-gray);
+    height: 6px;
+}
+
+.guide-steps::-webkit-scrollbar-thumb {
+    background-color: var(--blue);
+    height: 12px;
+}
+
+.each-step {
+    cursor: pointer;
+    flex-shrink: 0;
+    overflow: hidden;
+    transform: scale(.95);
+    transition: all .3s;
+    width: 360px;
+}
+
+.blur {
+    opacity: 0.5;
+}
+
+.each-step:hover {
+    transform: scale(1);
+}
+
+.each-step img {
+    margin-bottom: 26px;
+    max-width: 100%;
+    height: 351px;
+}
+
+.each-step h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2.18rem;
+    margin-bottom: 18px;
+}
+
+.each-step p {
+    font-size: 0.93rem;
+    font-weight: 400;
+    letter-spacing: 0.75px;
+    line-height: 1.4rem;
+    margin-bottom: 18px;
+}
+
+.each-step div {
+    color: var(--blue);
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+
+
+/* SECTION 8 */
+
+.products {
+    margin: auto;
+    margin-bottom: 213px;
+    width: 77%;
+}
+
+.m10 {
+    position: absolute;
+    top:200px;
+    right:-89px;
+}
+
+.m11 {
+    bottom:90px;
+    position: absolute;
+    left:-93px;
+}
+
+.products-header {
+    text-align: center;
+    margin-bottom: 103px;
+}
+
+.products-header h3 {
+    margin-bottom: 45px;
+}
+
+.money-insurance {
+    align-items: center;
+    justify-content: center;
+}
+
+.margin-line {
+    width: 512px;
+    border: 1px solid var(--dark-gray);
+}
+
+.loan {
+    color: var(--black);
+    letter-spacing: 0.7px;
+}
+
+.activate {
+    border: 2px solid var(--blue);
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.yalla-products {
+    animation: mymove 3s ease;
+    column-gap: 73px;
+    flex-wrap: wrap;
+}
+
+.yalla-products.selected {
+    display: flex;
+}
+
+.loan-type {
+    position: relative;
+    width: 307px;
+}
+
+.loan-type img {
+    width: 100%;
+}
+
+.loan-block {
+    background: linear-gradient(270deg, var(--blue), var(--dark-blue));
+    flex-direction: column;
+    position: absolute;
+    right: -39px;
+    bottom: 39px;
+    width: 307px;
+}
+
+.loan-block span {
+    color: var(--white);
+    letter-spacing: 0.7px;
+    margin-left: 35px;
+}
+
+.loan-block :first-child {  
+    font-size: 1.12rem;
+    font-weight: bold;
+    line-height: 1.7rem;
+    margin-bottom: 4.75px;
+    margin-top: 18px;   
+}
+
+.loan-block :last-child {
+    font-size: 0.87rem;
+    font-weight: 400;
+    line-height: 1.3rem; 
+    margin-bottom: 20px; 
+}
+
+/* FOOTER */
+
+.petra-insurance {
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 76.5%;
+}
+
+.yalla-petra img {
+    width: 38px;
+}
+
+.yalla-petra {
+    align-items: center;
+}
+
+.yalla-petra span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 2.2rem;
+    letter-spacing: 1.2px;
+    padding: 15px;
+}
+
+.petra-insurance span {
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 3.3px;
+    line-height: 1.3rem;
+}
+
+.terms-social-icons {
+    background-color: var(--black);
+}
+
+.footer-logo {
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 35px;
+    width: 76.5%;
+}
+
+.footer-logo nav {
+    border-left: 1px solid var(--ash);
+}
+
+.footer-logo img {
+    width: 243px;
+}
+
+.terms-conditions {
+    padding: 0 30px;
+}
+
+.social-icons {
+    padding-left: 30px;
+}
+
+.terms-conditions a {
+    color: var(--ash);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.8;
+    padding: 0 20px;
+}
+
+.social-icons li {
+    width: 24px;
+    padding-left: 31px;
+}
+
+.footer-navlist {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.copyrights-payments {
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 76.5%;
+}
+
+.copyrights {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    letter-spacing: 0.9px;
+}
+
+.copyrights span {
+    border-bottom: 1px solid var(--ash);
+    font-weight: 600;
+}
+
+.payments-store {
+    flex-direction: row;
+}
+
+.payments {
+    align-items: center;
+    margin: auto 40px;
+}
+
+.payments img {
+    padding-left: 33px;
+}
+
+.play-store {
+    align-items: center;
+    border-left: 1px solid var(--ash);
+    padding-left: 40px;
+}
+
+.play-store img {
+    padding-left: 9px;
+    margin-top: 14px;
+}
+
+@media screen and (max-width:1023px) {
+
+   
+    .icon-menu {
+        display: flex;
+    }
+
+    .menu-bar {
+        animation: menuAnimation 1s ease;
+        align-items: center;
+        background-color: var(--black);
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        left: 0;
+        opacity: 0.9;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    .d-none-md {
+        display: none;
+    }
+
+    .yalla-navlist {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-bar a {
+        padding: 20px;
+        font-size: 2.2rem;
+        color: var(--white);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon-close {
+        color: var(--white);
+        display: inline-block;
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 4rem;
+    }
+
+    .menu-bar a:focus {
+        color: var(--ash);
+    }
+
+    .container,
+    h1,
+    .yalla-home,
+    .car-details,
+    .works-wrapper,
+    .yalla-reasons,
+    .rating,
+    .insurance {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 6.2rem;
+        line-height: 1;
+        word-break: break-word;
+    }
+
+    .yalla-home-content,
+    .deals,
+    .copyrights-payments {
+        flex-direction: column-reverse;
+    }
+
+    .car-image,
+    .deals-image {
+        position: relative;
+        right: 0;
+        top: 0;
+        width: fit-content;
+    }
+
+    .yalla-companies-navbar,
+    .footer-logo,
+    .terms-conditions {
+        flex-direction: column;
+    }
+
+    .companies,
+    .why-choose span,
+    .reasons-list,
+    .yalla-best-deals {
+        margin: 0;
+    }
+
+    .companies li:not(:first-child),
+    .companies li:first-child {
+        margin-right: 14px;
+    }
+
+    .header-container,
+    .yalla-works ,
+    .yalla-six-reasons,
+    .rating-header,
+    .deals-features,
+    .products,
+    .petra-insurance,
+    .footer-logo,
+    .copyrights-payments {
+        width: 90%;
+        margin: auto;
+    }
+
+    .filters-image {
+        margin-top: 10%;
+        width: 55%;
+    }
+
+    .rating-header {
+        margin-bottom: 50px;
+    }
+
+    .each-reason {
+        width: fit-content;
+    }
+
+    .reason-content {
+        margin-left: 20px;
+    }
+
+    .footer-logo nav {
+        border: none;
+    }
+
+    .footer-logo {
+        padding: 35px 0;
+    }
+
+    .petra-insurance,
+    .copyrights-payments {
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .d-none-sm {
+        display:none;
+    }
+
+    .yalla-days {
+        padding: 0;
+    }
+
+    .companies {
+        margin-bottom: 50px;
+    }
+
+    .logo-comparison,
+    .companies ul,
+    .payments-store {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .companies li:first-child {
+        padding: 0;
+        margin-left: 0;
+        border: 0;
+    }
+
+    .compare-works h3,
+    .rating-header h3,
+    .deals-header h3,
+    .guide-header h3,
+    .products-header h3 {
+        line-height: 2;
+    }
+
+    .yalla-filters {
+        width: 100%;
+    }
+
+    .filters-image {
+        width: 85%;
+    }
+
+    .deals-image {
+        width: auto;
+    }
+
+    .insurance-section {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .banks-grid {
+        order:-1;
+        margin-bottom:50px;
+    }
+
+    .social-icons {
+        flex-direction: column;
+    }
+
+    .each-reason {
+        width: 350px;
+    }
+
+    .loan-type {
+        width: 330px
+    }
+
+    .payments {
+        margin: auto;
+    }
+
+    .play-store {
+        border-left: 0;
+    }
+}
+
+
+
+/* Keyframes for animation */
+
+@keyframes mymove {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes menuAnimation {
+    from {
+        width:0;
+    }
+    to {
+        width:100%;
+    }
+    
+}

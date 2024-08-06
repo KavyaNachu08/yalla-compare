@@ -1,0 +1,253 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+li{
+    list-style-type: none;
+}
+
+@font-face {
+  font-family: 'yalla-compare';
+  src:  url('../assets/fonts/yalla-compare.eot');
+  src:  url('../assets/fonts/yalla-compare.eot') format('embedded-opentype'),
+    url('../assets/fonts/yalla-compare.ttf') format('truetype'),
+    url('../assets/fonts/yalla-compare.woff') format('woff'),
+    url('../assets/fonts/yalla-compare.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'yalla-compare' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pinterest1 .path1:before {
+  content: "\e91c";
+  color: rgb(203, 32, 39);
+}
+.icon-pinterest1 .path2:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(241, 242, 242);
+}
+.icon-cam-icon1:before {
+  content: "\e91e";
+}
+.icon-fb-icon1:before {
+  content: "\e91f";
+}
+.icon-twitter-icon1:before {
+  content: "\e920";
+}
+.icon-youtube-logo:before {
+  content: "\e921";
+}
+.icon-awareness:before {
+  content: "\e902";
+  color: #ffdaed;
+}
+.icon-clock:before {
+  content: "\e903";
+  color: #ffdaed;
+}
+.icon-discount:before {
+  content: "\e904";
+  color: #2166b1;
+}
+.icon-emoji:before {
+  content: "\e905";
+  color: #ffdaed;
+}
+.icon-headset:before {
+  content: "\e911";
+  color: #ffdaed;
+}
+.icon-help:before {
+  content: "\e915";
+  color: #2166b1;
+}
+.icon-pay:before {
+  content: "\e916";
+  color: #2166b1;
+}
+.icon-refund:before {
+  content: "\e917";
+  color: #2166b1;
+}
+.icon-research:before {
+  content: "\e918";
+  color: #ffdaed;
+}
+.icon-sale:before {
+  content: "\e919";
+  color: #2166b1;
+}
+.icon-sold:before {
+  content: "\e91a";
+  color: #2166b1;
+}
+.icon-secure:before {
+  content: "\e91b";
+  color: #ffdaed;
+}
+.icon-twitter-icon:before {
+  content: "\e909";
+  color: #676767;
+}
+.icon-youtube-icon:before {
+  content: "\e90a";
+  color: #676767;
+}
+.icon-cam-icon:before {
+  content: "\e90b";
+  color: #676767;
+}
+.icon-pinterest:before {
+  content: "\e90c";
+  color: #676767;
+}
+.icon-fb-icon:before {
+  content: "\e90d";
+  color: #676767;
+}
+.icon-greater-arrow:before {
+  content: "\e90e";
+  color: #fff;
+}
+.icon-arrow:before {
+  content: "\e90f";
+  color: #fff;
+}
+.icon-tick:before {
+  content: "\e910";
+  color: #a7d1ff;
+}
+.icon-rating .path1:before {
+  content: "\e912";
+  color: rgb(255, 220, 100);
+}
+.icon-rating .path2:before {
+  content: "\e913";
+  margin-left: -1.048828125em;
+  color: rgb(255, 200, 80);
+}
+.icon-google-icon:before {
+  content: "\e914";
+}
+.icon-user:before {
+  content: "\e906";
+}
+.icon-search:before {
+  content: "\e907";
+}
+.icon-grid:before {
+  content: "\e908";
+}
+.icon-close:before {
+  content: "\e900";
+}
+.icon-menu:before {
+  content: "\e901";
+}
